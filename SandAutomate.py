@@ -1,4 +1,4 @@
-"""La classe SandAutomate"""
+"""La classe SandAutomate permet de manipuler des tas de sable sur des grilles rectangulaires"""
 from copy import deepcopy
 from functools import partial
 import numpy as np
