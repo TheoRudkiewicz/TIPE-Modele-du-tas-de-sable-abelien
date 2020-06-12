@@ -1,3 +1,6 @@
+"""Différentes fonctions permettant de manipuler des tas de sable sous formes de tableau numpy
+se voulant plus efficace que la classe en utilisant notamment la compilation avec numba"""
+
 from numpy import array, full, arange
 import numpy as np
 from numba import jit
