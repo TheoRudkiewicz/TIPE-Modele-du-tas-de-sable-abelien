@@ -8,3 +8,4 @@ Liste des codes:
 - exploit_from_markov: Permet de visualiser et d'exploiter les données généré avec le processus markovien
 - general: Différentes fonctions permettant de manipuler des tas de sable sous formes de tableau numpy
 se voulant plus efficace que la classe en utilisant notamment la compilation avec numba
+- Permet de simuler le processus markovien et de récupérer des données issues de ce porcessus: la configuration avec le moins de grains de sable (poids min),  le nombre d'apparition de chaque poids de configuration.
