@@ -1,3 +1,5 @@
+"""Permet de générer toutes les configurations stables jusqu'à 3x3 et de tester pour chacune si elle est récurrente"""
+
 import numpy as np
 from Polynomial import Polynomial as P
 from Code.V2.general import *
