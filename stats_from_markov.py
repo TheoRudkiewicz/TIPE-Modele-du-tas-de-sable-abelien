@@ -1,4 +1,6 @@
-"""Stats from random"""
+"""Permet de simuler le processus markovien et de récupérer des données issues de ce porcessus:
+-la configuration avec le moins de grains de sable (poids min)
+-le nombre d'apparition de chaque poids de configuration"""
 # from Code.V2.general import *
 from general import *
 import numpy as np
