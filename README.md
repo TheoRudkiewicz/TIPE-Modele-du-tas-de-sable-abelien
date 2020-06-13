@@ -4,7 +4,8 @@ TIPE sur le modèle du tas de sable abélien
 Pour comprendre mon TIPE il est utile de lire le MCOT puis la deuxième partie du rapport (la première est une reprise du MCOT). Durant mon TIPE j'ai cherché un critère pour déterminer si une configuration est récurrente à partir de son poids. J'ai eu une approche exhaustive sur des petits cas avec clasify_all puis une approche statistique avec random et markov (constitué chacun d'un code pour générer des données et d'un autre pour les exploiter). J'ai également eu une approche théorique sur le cycles, présente dans la suite du rapport. Ce TIPE pourrait se poursuivre par l'étude des conjectures sur la forme des configuration. Par exemple, la présence d'un motif de bande dans les graphes sur une grille triangulaire. Les grilles triangulaires étant absentes littérature actuelle. On trouvera une ébauche de cette réflexion sur les grilles triangulaires à la fin du rapport.
 
 
-Configuration minimale Python 3.6 avec numba. 
+Configuration minimale Python 3.6 avec numba.
+
 Liste des codes:
 - La classe SandAutomate permet de manipuler des tas de sable sur des grilles rectangulaires 2D n x m
 - clasify_all: Permet de générer toutes les configurations stables jusqu'à 3x3 et de tester pour chacune si elle est récurrente (donne dénombrement_3x3.png)
