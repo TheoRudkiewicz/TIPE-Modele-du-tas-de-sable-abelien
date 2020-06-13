@@ -1,7 +1,7 @@
 # TIPE-Modele-du-tas-de-sable-abelien
 TIPE sur le modèle du tas de sable abélien
 
-
+Configuration minimale Python 3.6 avec numba. 
 Liste des codes:
 - La classe SandAutomate permet de manipuler des tas de sable sur des grilles rectangulaires 2D n x m
 - clasify_all: Permet de générer toutes les configurations stables jusqu'à 3x3 et de tester pour chacune si elle est récurrente
