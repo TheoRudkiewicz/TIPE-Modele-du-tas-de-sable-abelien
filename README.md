@@ -8,10 +8,15 @@ Configuration minimale Python 3.6 avec numba.
 
 Liste des codes:
 - La classe SandAutomate permet de manipuler des tas de sable sur des grilles rectangulaires 2D n x m
-- clasify_all: Permet de générer toutes les configurations stables jusqu'à 3x3 et de tester pour chacune si elle est récurrente (donne dénombrement_3x3.png)
+- SandPile: Classe pour manipuler toutes les formes de tas de sable définies par la matrice laplacienne. Cependant, c'est la classe de Sagemath que j'ai utilisée pour émettre des conjectures.
+- general: Différentes fonctions permettant de manipuler des tas de sable sous forme de tableau numpy se voulant plus efficace que la classe SandAutomate en utilisant notamment la compilation avec numba
+- gen_all: Permet de générer toutes les configurations stables pour une taille donnée
+- clasify_all: Permet de tester toutes les configurations stables jusqu'à 3x3 et de tester pour chacune si elle est récurrente (donne dénombrement_3x3.png)
 - stats_from_markov: Permet de simuler le processus markovien et de récupérer des données issues de ce processus: la configuration avec le moins de grains de sable (poids min), le nombre d'apparition de chaque poids de configuration.
 - exploit_from_markov: Permet de visualiser et d'exploiter les données générées avec le processus markovien par le code stats_from_markov (donne stats_markov_100_100_10mi.png)
-- general: Différentes fonctions permettant de manipuler des tas de sable sous forme de tableau numpy se voulant plus efficace que la classe SandAutomate en utilisant notamment la compilation avec numba
-- SandPile: Classe pour manipuler toutes les formes de tas de sable définies par la matrice laplacienne. Cependant, c'est la classe de Sagemath que j'ai utilisée pour émettre des conjectures.
+- stats_from_random: Permet de générer aléatoirement des configurations et de récupérer des données issues de ce processus:
+la configuration avec le moins de grains de sable (poids min),
+le nombre d'apparition de chaque poids de configuration.
+- exploit_from_random: Permet de visualiser et d'exploiter les données générées avec le code stats_from_random
 - simule_triangle: Permet de simuler l'éboulement d'un tas de sable sur un pavage triangulaire
 - svg_render: Permet de créer une image au format svg représentant une grille triangulaire
