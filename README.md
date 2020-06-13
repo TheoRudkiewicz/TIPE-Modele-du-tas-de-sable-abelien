@@ -10,3 +10,5 @@ Liste des codes:
 se voulant plus efficace que la classe en utilisant notamment la compilation avec numba
 - stats_from_markov: Permet de simuler le processus markovien et de récupérer des données issues de ce porcessus: la configuration avec le moins de grains de sable (poids min),  le nombre d'apparition de chaque poids de configuration.
 - SandPile: Classe pour manipuler toutes les formes de tas de sable définit par la matrice laplacienne. Cependant, c'est la classe de Sagemath que j'ai utilisé
+- simule_triangle: Permet de simuler l'éboulement d'un tas de sable sur un pavage triangulaire
+- svg_render: Permet de créé un svg représenatant une grille triangulaire
