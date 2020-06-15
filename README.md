@@ -15,6 +15,7 @@ Liste des codes:
 ![](https://raw.githubusercontent.com/TheoRudkiewicz/TIPE-Modele-du-tas-de-sable-abelien/master/Rectangle/clasify_all_3x3.png)
 - stats_from_markov: Permet de simuler le processus markovien et de récupérer des données issues de ce processus: la configuration avec le moins de grains de sable (poids min), le nombre d'apparition de chaque poids de configuration.
 - exploit_from_markov: Permet de visualiser et d'exploiter les données générées avec le processus markovien par le code stats_from_markov (donne stats_markov_100_100_10mi.png)
+![](https://raw.githubusercontent.com/TheoRudkiewicz/TIPE-Modele-du-tas-de-sable-abelien/master/Rectangle/Statistiques/stats_markov_100_100_10mi.png)
 - stats_from_random: Permet de générer aléatoirement des configurations et de récupérer des données issues de ce processus:
 la configuration avec le moins de grains de sable (poids min),
 le nombre d'apparition de chaque poids de configuration.
