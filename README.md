@@ -20,6 +20,8 @@ Liste des codes:
 la configuration avec le moins de grains de sable (poids min),
 le nombre d'apparition de chaque poids de configuration.
 - exploit_from_random: Permet de visualiser et d'exploiter les données générées avec le code stats_from_random
+![](https://raw.githubusercontent.com/TheoRudkiewicz/TIPE-Modele-du-tas-de-sable-abelien/master/Rectangle/Statistiques/stats_random_5_5_10mi.png)
+
 - simule_triangle: Permet de simuler l'éboulement d'un tas de sable sur un pavage triangulaire
 - svg_render: Permet de créer une image au format svg représentant une grille triangulaire
 
