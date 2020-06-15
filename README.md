@@ -20,3 +20,5 @@ le nombre d'apparition de chaque poids de configuration.
 - exploit_from_random: Permet de visualiser et d'exploiter les données générées avec le code stats_from_random
 - simule_triangle: Permet de simuler l'éboulement d'un tas de sable sur un pavage triangulaire
 - svg_render: Permet de créer une image au format svg représentant une grille triangulaire
+
+![](https://raw.githubusercontent.com/TheoRudkiewicz/TIPE-Modele-du-tas-de-sable-abelien/master/Triangle/186x201_e.png)
