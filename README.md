@@ -21,4 +21,5 @@ le nombre d'apparition de chaque poids de configuration.
 - simule_triangle: Permet de simuler l'éboulement d'un tas de sable sur un pavage triangulaire
 - svg_render: Permet de créer une image au format svg représentant une grille triangulaire
 
+Par exemple, l'élement neutre sur une grille de 186x201
 ![](https://raw.githubusercontent.com/TheoRudkiewicz/TIPE-Modele-du-tas-de-sable-abelien/master/Triangle/186x201_e.png)
